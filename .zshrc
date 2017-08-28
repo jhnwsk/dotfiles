@@ -22,10 +22,13 @@ antigen use oh-my-zsh
 antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle ubuntu
 antigen bundle git
 antigen bundle pip
 antigen bundle virtualenv
 antigen bundle virtualenvwrapper
+antigen bundle docker
+antigen bundle docker-compose
 
 # Syntax highlighting bundle.
 # antigen bundle zsh-users/zsh-syntax-highlighting
@@ -158,7 +161,7 @@ SPACESHIP_TIME_PREFIX="at "
 SPACESHIP_TIME_SUFFIX="$SPACESHIP_PROMPT_DEFAULT_SUFFIX"
 SPACESHIP_TIME_FORMAT=false
 SPACESHIP_TIME_12HR=false
-SPACESHIP_TIME_COLOR="cyan"
+SPACESHIP_TIME_COLOR="magenta"
 
 # EXECUTION TIME
 SPACESHIP_EXEC_TIME_SHOW="${SPACESHIP_EXEC_TIME_SHOW:=true}"
@@ -197,7 +200,7 @@ SPACESHIP_GIT_SYMBOL=" "
 SPACESHIP_GIT_BRANCH_SHOW=true
 SPACESHIP_GIT_BRANCH_PREFIX="$SPACESHIP_GIT_SYMBOL"
 SPACESHIP_GIT_BRANCH_SUFFIX=""
-SPACESHIP_GIT_BRANCH_COLOR="magenta"
+SPACESHIP_GIT_BRANCH_COLOR="cyan"
 # GIT STATUS
 SPACESHIP_GIT_STATUS_SHOW=true
 SPACESHIP_GIT_STATUS_PREFIX=" ["
