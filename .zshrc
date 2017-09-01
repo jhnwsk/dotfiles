@@ -1,3 +1,6 @@
+# add the package missing suggestions
+. /etc/zsh_command_not_found
+
 # I dont need this anymore since I am using antigen?
 # source $ZSH/oh-my-zsh.sh
 
