@@ -1,0 +1,13 @@
+{
+    "editor.cursorBlinking": "blink",
+    "workbench.sideBar.location": "left",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    "python.venvPath": "/home/jhnwsk/_dev/.venvs",
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
+}
