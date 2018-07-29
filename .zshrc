@@ -179,6 +179,12 @@ SPACESHIP_EXEC_TIME_COLOR="${SPACESHIP_EXEC_TIME_COLOR:="yellow"}"
 SPACESHIP_EXEC_TIME_THRESHOLD="${SPACESHIP_EXEC_TIME_THRESHOLD:=5000}"
 SPACESHIP_EXEC_TIME_MS="${SPACESHIP_EXEC_TIME_MS:=false}"
 
+# VENV
+SPACESHIP_VENV_SHOW=true
+SPACESHIP_VENV_PREFIX="venv:("
+SPACESHIP_VENV_SUFFIX=") "
+SPACESHIP_VENV_COLOR="green"
+
 # USER
 SPACESHIP_USER_PREFIX="" # remove `with` before username
 SPACESHIP_USER_SUFFIX="" # remove space before host
@@ -198,8 +204,8 @@ SPACESHIP_DIR_TRUNC='1' # show only last directory
 SPACESHIP_GIT_SYMBOL="" # disable git prefix
 SPACESHIP_GIT_BRANCH_PREFIX="" # disable branch prefix too
 # Wrap git in `git:(...)`
-SPACESHIP_GIT_PREFIX='git:['
-SPACESHIP_GIT_SUFFIX="] "
+SPACESHIP_GIT_PREFIX='git:('
+SPACESHIP_GIT_SUFFIX=") "
 SPACESHIP_GIT_BRANCH_SUFFIX="" # remove space after branch name
 # Unwrap git status from `[...]`
 SPACESHIP_GIT_STATUS_PREFIX=""
