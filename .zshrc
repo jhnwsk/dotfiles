@@ -186,8 +186,10 @@ SPACESHIP_VENV_SUFFIX=") "
 SPACESHIP_VENV_COLOR="green"
 
 # USER
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_USER_COLOR="blue"
 SPACESHIP_USER_PREFIX="" # remove `with` before username
-SPACESHIP_USER_SUFFIX="" # remove space before host
+SPACESHIP_USER_SUFFIX=" " # remove space before host
 
 # HOST
 # Result will look like this:
@@ -197,7 +199,7 @@ SPACESHIP_HOST_SUFFIX=") "
 
 # DIR
 SPACESHIP_DIR_PREFIX='' # disable directory prefix, cause it's not the first section
-SPACESHIP_DIR_TRUNC='1' # show only last directory
+SPACESHIP_DIR_TRUNC='0' # show only last directory
 
 # GIT
 # Disable git symbol
@@ -249,3 +251,8 @@ SPACESHIP_VENV_SUFFIX=") "
 SPACESHIP_PYENV_PREFIX="python:("
 SPACESHIP_PYENV_SUFFIX=") "
 SPACESHIP_PYENV_SYMBOL=""
+
+# PACKAGE
+SPACESHIP_PACKAGE_SYMBOL=""
+SPACESHIP_PACKAGE_PREFIX="package:("
+SPACESHIP_PACKAGE_SUFFIX=") "
